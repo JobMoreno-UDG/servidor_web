@@ -1,0 +1,28 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Agregar Alumno</title>
+            <style>
+                input{
+                    width: 100%;
+                }
+                #enviar{
+                    margin-top: 2px;
+                    background: #000;
+                    color:#fff;
+                    width: 50px;
+                }
+            </style>
+        </head>
+        <body>
+            <form action="/agregar" method="POST" id="tareaform">
+                <label>Nombre del Alumno:</label><br>
+                <input type="text" name="nombre" value=""> <br>
+                <label>Nombre de la Materia:</label><br>
+                <input type="text" name="materia" value=""> <br>
+                <label>Promedio:</label><br>
+                <input type="text" name="promedio" value=""> <br>
+                <input id="enviar" type="submit" value="Enviar">
+            </form>
+        </body>
+    </html>
